@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.content {
+    margin: auto; /* center horizontally */
+    max-width: 40em;
+    padding: 0 1em;
+}
+
+html, body {
+    height: 100%;
+}
+
+.full {
+    height: 100%;
+    background-image: url(bearfamily.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#cartoonbear {
+    background-image: url(waterbear.jpg);
+}
+
+#waterbear {
+    background-image: url(waterbear.jpg);
+}
+
+#brownbear {
+    background-image: url(brownbear.jpg);   
+}
+
+#logo {
+    width: 300px;
+    margin-left: -150px;
+    margin-top; -150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#box {
+    background-color: 562d2d;
+    text-align: center;
+}
+
+h3 {
+    color: white
+}
+
+.button {
+    color: white;
+    border: 0px;
+    background-color: 895656;
+    width: 100%
+}
